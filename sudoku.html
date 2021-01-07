@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Sudoku</title>
+        <link rel="stylesheet" type="text/css" href="sudoku.css">
+       <style>
+          
+       </style> <!--Para ingresar dentro de la hoja del css en html-->
+</head>
+
+<body>
+    <h1><strong>Configuracion</strong></h1>
+    <br>
+    <br>
+    <div ><img src="sudoku/sudoku.jpg" aling="center" width="100" height="100" ></div>
+    <br>
+    <button type="button" onclick="reglas()">Reglas</button>
+   
+    <button type="button" onclick="historia()">Historia</button>
+
+    <button type="button" onclick="paraquesirve()">Para que sirve</button>
+    
+    
+    <script>
+        
+        function reglas(){
+        console.log("dio click al boton")
+           alert("Selecciona una celda y despues presiona sobre un mumero para ponerlo en ella. Toma nota para llevar registro de los numeros posibles")
+        }
+        function historia(){
+            console.log("dio click al boton")
+            alert("El juego apareció por primera vez en Japón en 1984, donde recibió el nombre de Sudoku, que es la abreviatura de una expresión más larga en japonés: Sūji wa dokushin ni kagiru, que significa los dígitos están limitados a una ocurrencia. La historia de Sudoku se remonta a un juego de matemáticos suizos del siglo XVIII llamado Cuadrados latinos (según este artículo de The Economist) y algunos de los primeros rompecabezas numéricos que aparecieron en los periódicos se publicaron en Francia en 1895.")
+        }
+        function paraquesirve(){
+            console.log("dio click al boton")
+            alert("Sudoku es un rompecabezas lógico con el que se ejercita el hemisferio izquierdo del cerebro. Hacer los rompecabezas de Sudoku es fundamentalmente satisfactorio porque nos ayuda a ejercitar los músculos en una parte del cerebro que no se utiliza mucho durante nuestra vida cotidiana.")
+        }
+    
+    </script>
+</body>
+</html>
